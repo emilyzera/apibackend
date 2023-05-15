@@ -13,6 +13,6 @@ app.use(cors());
 app.use("/recados", recadoRoutes());
 app.use("/usuario", userRouters());
 
-app.listen(process.env.PORT, () => {
-  console.log(`API esta rodando na porta ${process.env.PORT}!`);
+app.listen(10000, () => {
+  console.log(`API esta rodando..`);
 });
